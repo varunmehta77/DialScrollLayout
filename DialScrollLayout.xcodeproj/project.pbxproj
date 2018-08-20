@@ -56,7 +56,6 @@
 		1800A60A212ADE99007199B2 /* DialScrollLayout */ = {
 			isa = PBXGroup;
 			children = (
-				1800A60B212ADE99007199B2 /* AppDelegate.swift */,
 				1800A61D212ADEE3007199B2 /* DialScrollLayout.swift */,
 				1800A61F212AFAA7007199B2 /* Example */,
 				1800A612212ADE9A007199B2 /* Assets.xcassets */,
@@ -69,6 +68,7 @@
 		1800A61F212AFAA7007199B2 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				1800A60B212ADE99007199B2 /* AppDelegate.swift */,
 				1800A620212AFAC1007199B2 /* ViewController.swift */,
 				1800A622212AFAEB007199B2 /* ImageCollectionCell.swift */,
 			);
