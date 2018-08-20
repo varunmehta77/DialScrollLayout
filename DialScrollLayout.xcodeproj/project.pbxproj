@@ -40,6 +40,7 @@
 		1800A5FF212ADE99007199B2 = {
 			isa = PBXGroup;
 			children = (
+				1800A61F212AFAA7007199B2 /* Example */,
 				1800A60A212ADE99007199B2 /* DialScrollLayout */,
 				1800A609212ADE99007199B2 /* Products */,
 			);
@@ -57,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				1800A61D212ADEE3007199B2 /* DialScrollLayout.swift */,
-				1800A61F212AFAA7007199B2 /* Example */,
 				1800A612212ADE9A007199B2 /* Assets.xcassets */,
 				1800A614212ADE9A007199B2 /* LaunchScreen.storyboard */,
 				1800A617212ADE9A007199B2 /* Info.plist */,
