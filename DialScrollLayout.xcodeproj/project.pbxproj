@@ -11,6 +11,8 @@
 		1800A613212ADE9A007199B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1800A612212ADE9A007199B2 /* Assets.xcassets */; };
 		1800A616212ADE9A007199B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1800A614212ADE9A007199B2 /* LaunchScreen.storyboard */; };
 		1800A61E212ADEE3007199B2 /* DialScrollLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800A61D212ADEE3007199B2 /* DialScrollLayout.swift */; };
+		1800A621212AFAC1007199B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800A620212AFAC1007199B2 /* ViewController.swift */; };
+		1800A623212AFAEB007199B2 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800A622212AFAEB007199B2 /* ImageCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1800A615212ADE9A007199B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1800A617212ADE9A007199B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1800A61D212ADEE3007199B2 /* DialScrollLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialScrollLayout.swift; sourceTree = "<group>"; };
+		1800A620212AFAC1007199B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1800A622212AFAEB007199B2 /* ImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,21 @@
 			children = (
 				1800A60B212ADE99007199B2 /* AppDelegate.swift */,
 				1800A61D212ADEE3007199B2 /* DialScrollLayout.swift */,
+				1800A61F212AFAA7007199B2 /* Example */,
 				1800A612212ADE9A007199B2 /* Assets.xcassets */,
 				1800A614212ADE9A007199B2 /* LaunchScreen.storyboard */,
 				1800A617212ADE9A007199B2 /* Info.plist */,
 			);
 			path = DialScrollLayout;
+			sourceTree = "<group>";
+		};
+		1800A61F212AFAA7007199B2 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				1800A620212AFAC1007199B2 /* ViewController.swift */,
+				1800A622212AFAEB007199B2 /* ImageCollectionCell.swift */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +147,8 @@
 			files = (
 				1800A61E212ADEE3007199B2 /* DialScrollLayout.swift in Sources */,
 				1800A60C212ADE99007199B2 /* AppDelegate.swift in Sources */,
+				1800A621212AFAC1007199B2 /* ViewController.swift in Sources */,
+				1800A623212AFAEB007199B2 /* ImageCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

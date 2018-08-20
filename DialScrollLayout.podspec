@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/varunmehta77/DialScrollLayout.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Varun Mehta' => 'varunmehta077@gmail.com' }
-  s.source           = { :git => 'https://github.com/varunmehta77/DialScrollLayout.git', :tag => '{s.version}' }
-
+  s.source           = { :git => 'https://github.com/varunmehta77/DialScrollLayout.git', :tag => '0.1.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
   s.ios.deployment_target = '10.0'
   s.source_files = 'DialScrollLayout/DialScrollLayout.swift'
 
