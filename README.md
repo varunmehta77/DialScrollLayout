@@ -10,8 +10,6 @@ DialScrollLayout is collection view with scrolling cells with centering at corne
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.1+ is required
-
 To integrate DialScrollLayout into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
